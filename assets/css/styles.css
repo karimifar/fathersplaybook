@@ -1,17 +1,53 @@
 *{
     font-family: "museo-sans", sans-serif;
     /* font-family: "le-monde-livre-std", serif; */
-    font-weight: 300;
+    font-weight: 500;
 }
 h1{
     font-family: "museo-sans-display", sans-serif;
     font-weight: 800;
 }
-img{
+/* img{
     width: 300px;
-}
+} */
 
 .home-container{
     height: 100vh;
+    z-index: 2;
+    position: relative;
     /* background: #dd5686 */
 }
+
+#home-row p{
+    font-size: 28px;
+}
+.wrapper{
+    height: 100vh;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    overflow: hidden;
+    /* background-color: #cccccc; */
+}
+.navbar{
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+#nav-icon{
+    width: 200px;
+    margin-left: 5%;
+}
+#g-play-link{
+    width:200px;
+}
+#trapezoid {
+    border-bottom: 100vh solid #fbc02d;
+    /* border-left: 25px solid transparent; */
+    border-right: 300px solid transparent;
+    height: 0;
+    width: 60%;
+    position: absolute;
+    z-index: 0;
+  }
