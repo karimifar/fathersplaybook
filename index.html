@@ -17,6 +17,7 @@
 
     <!-- mys stylesheets -->
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 
 
 </head>
@@ -29,35 +30,43 @@
         </nav>
         <div id="trapezoid"></div>
 
-        <div class="container home-container d-flex flex-column justify-content-center">
-            <div id="home-row">
+        <div class="container home-container">
+            <div id="home-row" class="row">
                 <!-- <img src="./assets/img/icon.svg"> -->
                 <!-- <h1>Fathers Playbook App</h1> -->
-                <p>About to be a dad and trying to make sense of pregnancy, what to do, and where to start? The Father’s Playbook app is here to help. This app is developed for guys to help them understand pregnancy and prepare them for after the baby comes. The app covers:</p>
-                <div class="home-bullet">
-                    <div class="bullet-icon"></div>
-                    <span class="bullet-text">Financial planning for the baby</span>
+                <div class="col-md-8 intro-col">
+                    <h1>Father's Playbook</h1>
+                    <p>About to be a dad and trying to make sense of pregnancy, what to do, and where to start? The Father’s Playbook app is here to help. This app is developed for guys to help them understand pregnancy and prepare them for after the baby comes. The app covers:</p>
                 </div>
-                <div class="home-bullet">
-                    <div class="bullet-icon"></div>
-                    <span class="bullet-text">Understanding what your partner is going through</span>
+                <div class="col-md-4">
+                    <div class="home-bullet">
+                        <div class="bullet-icon"><img src="./assets/img/fin-icon.png"></div>
+                        <span class="bullet-text">Financial planning for the baby</span>
+                    </div>
+                    <div class="home-bullet">
+                        <div class="bullet-icon"><img src="./assets/img/help-icon.png"></div>
+                        <span class="bullet-text">Understanding what your partner is going through</span>
+                    </div>
+                    <div class="home-bullet">
+                        <div class="bullet-icon"><img src="./assets/img/pregnancy-icon.png"></div>
+                        <span class="bullet-text">Helping during the pregnancy</span>
+                    </div>
+                    <div class="home-bullet">
+                        <div class="bullet-icon"><img src="./assets/img/heart-icon.png"></div>
+                        <span class="bullet-text">Tips on taking care of yourself</span>
+                    </div>
+                    <div class="home-bullet">
+                        <div class="bullet-icon"><img src="./assets/img/edu-icon.png"></div>
+                        <span class="bullet-text">Help with understanding medical terms</span>
+                    </div>
+
                 </div>
-                <div class="home-bullet">
-                    <div class="bullet-icon"></div>
-                    <span class="bullet-text">Helping during the pregnancy</span>
-                </div>
-                <div class="home-bullet">
-                    <div class="bullet-icon"></div>
-                    <span class="bullet-text">Tips on taking care of yourself</span>
-                </div>
-                <div class="home-bullet">
-                    <div class="bullet-icon"></div>
-                    <span class="bullet-text">Help with understanding medical terms</span>
-                </div>
+                
             </div>
 
-
-            <a id="g-play-link" href='https://play.google.com/store/apps/details?id=com.sagalabs.fathersplaybook&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img  alt='Get it on Google Play' src='./assets/img/google-play-badge.svg'/></a>
+            <div class="row justify-content-center dl-row">
+                <a id="g-play-link" href='https://play.google.com/store/apps/details?id=com.sagalabs.fathersplaybook&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img  alt='Get it on Google Play' src='./assets/img/google-play-badge.svg'/></a>
+            </div>
 
         </div>
     </div>
