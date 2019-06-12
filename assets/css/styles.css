@@ -51,6 +51,8 @@ h1{
 }
 #g-play-link{
     width:300px;
+    margin:auto;
+    display: block;
 }
 #trapezoid {
     border-bottom: 100vh solid #fbc02d;
@@ -86,6 +88,9 @@ h1{
   }
   .dl-row{
       margin-top: 50px;
+  }
+  .dl-row p{
+      font-weight: 100;
   }
 
   .intro-col{
