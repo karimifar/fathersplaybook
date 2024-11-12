@@ -1,73 +1,82 @@
 @media only screen and (max-width: 1024px) {
-    #nav-icon{
-        width: 150px;
-        margin-left: 5%;
-    }
-    h1{
-       font-size: 20px;
-    }
-    #home-row p{
-        font-size: 20px;
-    }
-    .bullet-text{
-        font-size: 16px;
-        margin-left:10px;
-    }
-
-    #trapezoid {
-        border-left: 200px solid transparent;
-        width: 60%;
-      }
-
-
-
-
+  #nav-icon {
+    width: 150px;
+    margin-left: 5%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  #home-row p {
+    font-size: 20px;
+  }
+  .bullet-text {
+    font-size: 16px;
+    margin-left: 10px;
   }
 
+  #trapezoid {
+    border-left: 200px solid transparent;
+    width: 60%;
+  }
+}
 
+@media only screen and (max-width: 768px) {
+  .home-container {
+    display: block;
+  }
+  #trapezoid {
+    border-left: 300px solid transparent;
+    width: 80%;
+  }
+  #nav-icon {
+    margin-left: 10px;
+  }
+  .wrapper {
+    overflow: auto;
+  }
+  .navbar-nav li {
+    padding: 5px 0;
+    text-align: right;
+  }
+}
 
-
-  @media only screen and (max-width: 768px) {
-    .home-container{
-        display: block;
-    }
-    #trapezoid {
-        border-left: 300px solid transparent;
-        width: 80%;
-      }
-      #nav-icon{
-        margin-left: 10px;
-    }
-    .wrapper{
-       overflow: auto;
-    }
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    height: auto;
+    padding-bottom: 80px;
+  }
+  #trapezoid {
+    border-left: 250px solid transparent;
+    width: 80%;
+  }
+  .intro-col {
+    padding: 20px;
   }
 
-
-
-
-  @media only screen and (max-width: 600px) {
-    .wrapper{
-        height: auto;
-        padding-bottom: 80px;
-    }
-    #trapezoid{
-        display: none;
-    }
-
-    h1{
-        font-size: 18px;
-     }
-     #home-row p{
-         font-size: 16px;
-     }
-     .bullet-text{
-         font-size: 14px;
-     }
-     #g-play-link{
-        width:240px;
-    }
-    .dl-row p{
-        font-size: 14px;
-    }
+  h1 {
+    font-size: 18px;
   }
+  #home-row p {
+    font-size: 16px;
+  }
+  .bullet-text {
+    font-size: 14px;
+  }
+  .download-link {
+    width: 200px;
+  }
+  #app-store-link {
+    width: 160px;
+  }
+  .dl-row {
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .download-link {
+    width: 200px;
+  }
+  #app-store-link {
+    width: 190px;
+  }
+}

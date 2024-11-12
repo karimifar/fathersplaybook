@@ -1,38 +1,88 @@
 /* Styles for all */
-
-*{
-    font-family: "museo-sans", sans-serif;
-    /* font-family: "le-monde-livre-std", serif; */
-    font-weight: 500;
+html {
+  margin-top: 0 !important;
+  scroll-behavior: smooth;
 }
-h1{
-    font-family: "museo-sans-display", sans-serif;
-    font-weight: 800;
-    color: #4e342e;
+* {
+  font-family: "museo-sans", sans-serif;
+  /* font-family: "le-monde-livre-std", serif; */
+  font-weight: 500;
 }
-
-a{
-    color:unset;
-}
-a:hover{
-    color: #4e342e;
-    opacity: 0.8;
+h1 {
+  font-family: "museo-sans-display", sans-serif;
+  font-weight: 800;
+  color: #4e342e;
 }
 
-.navbar{
-    background: rgba(255, 255, 255, 0.9);
-    position: absolute;
-    /* display: block; */
-    z-index: 10;
-    width: 100%;
-    padding-right: 5%;
+a {
+  color: unset;
+}
+a:hover {
+  color: #4e342e;
+  opacity: 0.8;
 }
 
-#nav-icon{
-    width: 200px;
-    margin-left: 5%;
+.navbar {
+  background: rgba(255, 255, 255, 0.9);
+  /* display: block; */
+  z-index: 10;
+  width: 100%;
+  padding: 10px 10%;
 }
 
+#nav-icon {
+  width: 200px;
+  /* margin-left: 5%; */
+}
+.navbar-nav li {
+  padding: 0 10px;
+  text-align: right;
+}
 
+footer {
+  /* height: 240px; */
+  width: 100%;
+  background: #4e342e22;
+  padding: 60px 10px;
+  border-top: 2px solid #4e342e33;
+}
+footer .logos {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .logos a {
+  max-width: 140px;
+  padding: 10px;
+  opacity: 0.6;
+  /* cursor: auto; */
+}
 
+footer .dl-links img {
+  max-width: 240px;
+  width: 100%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
 
+footer .dl-links img:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+footer .logos img {
+  max-width: 100%;
+}
+#f-app-store-link {
+  padding: 7px;
+}
+footer p {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+footer .logos a:hover {
+  opacity: 0.8;
+}
+
+.not-found {
+  margin-top: 100px;
+}

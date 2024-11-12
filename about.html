@@ -1,162 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141911228-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-141911228-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-141911228-1');
+      gtag("config", "UA-141911228-1");
     </script>
 
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>About | Father's Playbook App</title>
 
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <!-- bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
 
     <!-- adobe fonts -->
-    <link rel="stylesheet" href="https://use.typekit.net/aap1rqx.css">
+    <link rel="stylesheet" href="https://use.typekit.net/aap1rqx.css" />
 
     <!-- mys stylesheets -->
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="stylesheet" href="./assets/css/about.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
-    <link rel="stylesheet" href="./assets/css/about-responsive.css">
-
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/about-responsive.css" />
 
     <!-- social share meta tags -->
-    <meta property="og:title" content="Father's Playbook App">
-    <meta property="og:description" content="About to be a Dad and trying to make sense of pregnancy, what to do, and where to start? The Father’s Playbook app is here to help.">
-    <meta property="og:image" content="https://fathersplaybook.org/thumbnail.jpg">
-    <meta property="og:url" content="https://www.fathersplaybook.org">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:site_name" content="Father's Playbook">
-    <meta name="twitter:image:alt" content="Father's Playbook">
+    <meta property="og:title" content="Father's Playbook App" />
+    <meta
+      property="og:description"
+      content="About to be a Dad and trying to make sense of pregnancy, what to do, and where to start? The Father’s Playbook app is here to help."
+    />
+    <meta
+      property="og:image"
+      content="https://fathersplaybook.org/thumbnail.jpg"
+    />
+    <meta property="og:url" content="https://www.fathersplaybook.org" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:site_name" content="Father's Playbook" />
+    <meta name="twitter:image:alt" content="Father's Playbook" />
     <!--  Non-Essential, But Required for Analytics -->
     <meta property="fb:app_id" content="karimifar" />
-    <meta name="twitter:site" content="@karimifar19">
-
-
-</head>
-<body>
+    <meta name="twitter:site" content="@karimifar19" />
+  </head>
+  <body>
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg navbar-inverse bg-inverse">
-            <a id="nav-icon" class="navbar-brand" href="./">
-                <img src="./assets/img/icon-alignedFill.svg" class="d-inline-block align-top" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active ">
-                        <a class="nav-link" href="./about.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                
-                    <!-- <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li> -->
-                </ul>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-inverse bg-inverse">
+        <a id="nav-icon" class="navbar-brand" href="./">
+          <img
+            src="./assets/img/FP-logo-fullcolor.svg"
+            class="d-inline-block align-top"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./features.html"
+                >Features <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./providers.html"
+                >For Providers <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./about.html"
+                >About <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
 
+      <div class="banner">
+        <img src="assets/img/PAP2.jpg" />
+        <div class="overlay"></div>
+      </div>
 
+      <div class="container about-container">
+        <h1 class="page-title">About</h1>
+        <div id="about-row" class="row">
+          <div class="col-md-8 text-col">
+            <p>
+              The Father’s Playbook was developed specifically for guys in
+              response to the lack of information for fathers as they navigate
+              their way to fatherhood. We are grateful to the fathers who have
+              participated in the research that continues to support and inform
+              the app and to those who have consulted with us through several
+              development cycles.
+            </p>
 
-        <div class="banner">
-            <img src="assets/img/mockup3-c.jpg">
-            <div class="overlay"></div>
+            <p>The Father’s Playbook is a collaboration between:</p>
+            <ul>
+              <li>
+                <a href="https://www.txsafebabies.org/">The Safe Babies</a> team
+                at UTHealth Houston School of Public Health led by Dr. Dorothy
+                Mandell,
+              </li>
+              <li>
+                <a href="https://uthealthcomm.org/"
+                  >Center for Health Communication</a
+                >
+                at UT Austin led by Dr. Micheal Mackert,
+              </li>
+              <li>
+                and SAGA Lab at UT Austin led by
+                <a
+                  href="https://www.cs.utexas.edu/people/faculty-researchers/paul-toprac"
+                  >Dr. Paul Toprac</a
+                >
+              </li>
+            </ul>
+            <p>
+              We are also lucky to have a team of staff and students who have
+              worked to develop and bring the app to fathers.
+            </p>
+          </div>
+
+          <div class="col-md-4 team-col">
+            <h2>Report an issue</h2>
+            <p>
+              To report a bug or request account deletion please contact
+              <a href="mailto:txsafebabies@gmail.com">txsafebabies@gmail.com</a>
+            </p>
+          </div>
         </div>
 
-        <div class="container about-container">
-            <h1 class="page-title">About</h1>
-            <div id="about-row" class="row">
-                <div class="col-md-8 text-col">
-
-                    <p>
-                        The Father’s Playbook was developed specifically for guys in response to the lack of information for men whose partners are expecting a baby. 
-                    </p>
-
-                    <p>
-                        The foundational work on Father’s Playbook was done by the Center for Health Communication at The University of Texas at Austin. The Texas Safe Babies team at The University of Texas Health Science Center Tyler and the SAGA team at UT Austin then joined to turn this work into a fully-functioning app.
-                    </p>
-
-                    <p>
-                        In addition to our design and app development wizards, The Father’s Playbook Team has experts in health communication, maternal and child health, and infant development.
-                    </p>
-
-                    <div class="thankful">
-                        <p>
-                            We are thankful to our funders that have supported the app:                     
-                        </p>
-                        <div class="sponsors d-flex">
-                            <p>UT Austin | Portugal International Collaboratory for Emerging Technologies</p>
-                            <p>Prevention and Early Intervention Division at the Department of Family & Protective Services</p>
-                        </div>
-                    </div>
-                    
-
-                </div>
-
-                <div class="col-md-4 team-col">
-                    <h2>THE TEAM</h2>
-
-                    <h3>Center for Health Communication, UT Austin:</h3>
-                    <ul>
-                        <li>Michael Mackert</li>
-                        <li>Mike Garcia</li>
-                        <li>Kelly Pretorius</li>
-                        <li>Marie Guadagno</li>
-                    </ul>
-                    
-
-                    <h3>Texas Safe Babies, UT Health Science Center Tyler:</h3>
-                    <ul>
-                        <li>Dorothy Mandell</li>
-                        <li>Jon Gibson</li>
-                        <li>Em Karimifar</li>
-                        <li>Dan Oppenheimer</li>
-                        <li>Nora Greene</li>
-                        <li>Jenna Ma</li>
-                    </ul>
-                    
-
-
-                    <h3>SAGA Lab, UT Austin:</h3>
-                    <ul>
-                        <li>Paul Toprac</li>
-                        <li>Xi Jin</li>
-                        <li>Ali Kedwaii</li>
-                        <li>Kyle Sotengco</li>
-                        <li>Barkha Patel</li>
-                    </ul>
-                    
-                </div>
-                
-
-
-            </div>
-
-            <div class="row sponsor-row">
-                                         
-            </div>
-
-        </div>
+        <div class="row sponsor-row"></div>
+      </div>
     </div>
-    
-</body>
+  </body>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <p>
+            2019 © All rights reserved <br />The Father’s Playbook app is
+            developed by the Texas Safe Babies team at The University of Texas
+            Health Science Center At Houston, The Center for Health
+            Communications at University of Texas at Austin, and The SAGA Lab at
+            the University of Texas at Austin.
+          </p>
+          <div class="logos">
+            <a href="https://www.txsafebabies.org/" target="_blank"
+              ><img src="./assets/img/safe-babies.png" alt=""
+            /></a>
+            <a href="https://sph.uth.edu/campuses/austin" target="_blank"
+              ><img src="./assets/img/uthealth.png" alt=""
+            /></a>
+            <a href="https://designcreativetech.utexas.edu/" target="_blank"
+              ><img src="./assets/img/ut-austin.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="col-md-4 dl-links">
+          <a
+            target="_blank"
+            href="https://play.google.com/store/apps/details?id=com.sagalabs.fathersplaybook&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            ><img src="./assets/img/google-play-badge.svg" alt=""
+          /></a>
+          <a
+            target="_blank"
+            class="download-link"
+            href="https://apps.apple.com/us/app/fathers-playbook/id1469334267"
+            ><img
+              id="f-app-store-link"
+              alt="Get it on App Store"
+              src="./assets/img/app-store.svg"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>

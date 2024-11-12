@@ -19,7 +19,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Father's Playbook App</title>
+    <title>For Providers | Father's Playbook App</title>
 
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
@@ -59,8 +59,9 @@
 
     <!-- mys stylesheets -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/about-responsive.css" />
 
     <!-- social share meta tags -->
     <meta property="og:title" content="Father's Playbook App" />
@@ -83,7 +84,7 @@
   <body>
     <div class="wrapper">
       <nav class="navbar navbar-expand-lg navbar-inverse bg-inverse">
-        <a id="nav-icon" class="navbar-brand" href="#">
+        <a id="nav-icon" class="navbar-brand" href="./">
           <img
             src="./assets/img/FP-logo-fullcolor.svg"
             class="d-inline-block align-top"
@@ -104,103 +105,40 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="./features.html"
-                >Features <span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link" href="./features.html">Features </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="./providers.html"
-                >For Providers <span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link" href="./providers.html">For Providers </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="./about.html"
-                >About <span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link" href="./about.html">About </a>
             </li>
           </ul>
         </div>
       </nav>
-      <div id="trapezoid"></div>
 
-      <div class="container home-container">
-        <div id="home-row" class="row">
-          <!-- <img src="./assets/img/icon.svg"> -->
-          <!-- <h1>Fathers Playbook App</h1> -->
-          <div class="col-md-8 intro-col">
-            <h1>Father's Playbook</h1>
+      <div class="banner">
+        <img src="assets/img/article.jpg" />
+        <div class="overlay"></div>
+      </div>
+
+      <div class="container about-container">
+        <h1 class="page-title">For Providers</h1>
+        <div id="about-row" class="row">
+          <div class="col-md-8 text-col">
             <p>
-              About to be a Dad and trying to make sense of pregnancy, what to
-              do, and where to start? The Father’s Playbook app is here to help.
-              This app is developed for guys to help them understand pregnancy
-              and prepare them for after the baby comes.
+              Providers are important in educating expectant fathers about their
+              role in pregnancy and childbirth. This evidence-based, free
+              resource can be easily distributed to your clients as additional
+              support during this very important time in the lives of soon-to-be
+              parents.
             </p>
           </div>
-          <div class="col-md-4">
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img src="./assets/img/fin-icon.png" />
-              </div>
-              <span class="bullet-text">Financial planning for the baby</span>
-            </div>
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img src="./assets/img/help-icon.png" />
-              </div>
-              <span class="bullet-text"
-                >Help with understanding what your partner is going
-                through</span
-              >
-            </div>
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img src="./assets/img/pregnancy-icon.png" />
-              </div>
-              <span class="bullet-text"
-                >Info on how to support her during the pregnancy</span
-              >
-            </div>
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img src="./assets/img/heart-icon.png" />
-              </div>
-              <span class="bullet-text">Tips on taking care of yourself</span>
-            </div>
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img src="./assets/img/edu-icon.png" />
-              </div>
-              <span class="bullet-text"
-                >Help with understanding medical terms</span
-              >
-            </div>
-          </div>
+
+          <div class="col-md-4 team-col"></div>
         </div>
 
-        <div class="row justify-content-center dl-row">
-          <div class="text-center">
-            <div class="row justify-content-center dl-row">
-              <a
-                id="g-play-link"
-                class="download-link"
-                href="https://play.google.com/store/apps/details?id=com.sagalabs.fathersplaybook&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
-                ><img
-                  alt="Get it on Google Play"
-                  src="./assets/img/google-play-badge.svg"
-              /></a>
-
-              <a
-                target="_blank"
-                class="download-link"
-                id="app-store-link"
-                href="https://apps.apple.com/us/app/fathers-playbook/id1469334267"
-                ><img
-                  alt="Get it on App Store"
-                  src="./assets/img/app-store.svg"
-              /></a>
-            </div>
-          </div>
-        </div>
+        <div class="row sponsor-row"></div>
       </div>
     </div>
   </body>
