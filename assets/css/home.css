@@ -38,15 +38,15 @@
   width: 250px;
 }
 #trapezoid {
-  border-bottom: 100vh solid #fbc02d;
+  border-bottom: 100vh solid #fbc12d;
   /* border-left: 25px solid transparent; */
-  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
   height: 0;
-  width: 60%;
+  width: 68%;
   position: absolute;
-  right: 0;
+  left: 0;
   z-index: 0;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .home-bullet {
@@ -54,10 +54,10 @@
   padding: 5px 0;
 }
 .bullet-icon {
-  width: 50px;
+  width: 45px;
 }
 .bullet-icon img {
-  width: 50px;
+  width: 38px;
 }
 .bullet-text {
   min-height: 10px;

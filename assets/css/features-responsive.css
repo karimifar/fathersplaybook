@@ -20,10 +20,10 @@
 
 @media only screen and (max-width: 600px) {
   .triangle-b {
-    border-top: 80px solid #fbc02dcc;
+    border-top: 80px solid #fbc02daa;
   }
 
   .triangle-t {
-    border-bottom: 80px solid #fbc02dcc;
+    border-bottom: 80px solid #fbc02daa;
   }
 }

@@ -17,6 +17,9 @@
   #trapezoid {
     border-left: 200px solid transparent;
     width: 60%;
+    border-right: unset;
+    right: 0;
+    left: unset;
   }
 }
 
