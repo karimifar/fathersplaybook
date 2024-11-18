@@ -22,7 +22,8 @@
   background-color: #ffffff;
 }
 .feat-row-y h1 {
-  color: #fff;
+  /* color: #fff; */
+  color: #4e342e;
 }
 .row {
   margin: 0;
