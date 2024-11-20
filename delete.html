@@ -19,7 +19,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Father's Playbook App</title>
+    <title>Delete Account | Father's Playbook App</title>
 
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
@@ -29,11 +29,6 @@
       integrity="sha384-5AkRS45j4ukf+JbWAfHL8P4onPA9p0KwwP7pUdjSQA3ss9edbJUJc/XcYAiheSSz" 
       crossorigin="anonymous">
     </script>
-    <!-- <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script> -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -62,16 +57,17 @@
     <!-- adobe fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/aap1rqx.css" />
 
-    <!-- mys stylesheets -->
+    <!-- my stylesheets -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="./assets/css/features.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/features-responsive.css" />
 
     <!-- social share meta tags -->
     <meta property="og:title" content="Father's Playbook App" />
     <meta
       property="og:description"
-      content="About to be a Dad and trying to make sense of pregnancy, what to do, and where to start? The Father’s Playbook app is here to help."
+      content="About to be a Dad and trying to make sense of pregnancy, what to do, and where to start? The Father's Playbook app is here to help."
     />
     <meta
       property="og:image"
@@ -91,7 +87,7 @@
         <a
           id="nav-icon"
           class="navbar-brand"
-          href="#"
+          href="./"
           aria-label="Return to Father's Playbook homepage"
         >
           <img
@@ -131,97 +127,51 @@
           </ul>
         </div>
       </nav>
-      <div id="trapezoid"></div>
+      <div class="container privacy-container">
+        <h1 class="page-title">Deleting your account from Father's Playbook</h1>
+        <p>
+          Below are instructions on how to delete your account from Father's Playbook. 
+          Deleting your account will remove all information identifying you from the app 
+          and our databases. Once deleted, we will not be able to identify you as a 
+          former user or associate you with any data stored in our databases. If you 
+          ever wish to use Father's Playbook again in the future, you will need to 
+          create a new account and you will start fresh as if you had never used the 
+          app before.
+        </p>
+        
+        <p>In app account deletion (recommended):</p>
+        <ul>
+          <li>
+            When logged in to Father's Playbook, you will select Settings (the Gear 
+            icon at the bottom right of the screen) and look for the red <span style="color: #cf2e2e;">Delete account</span> option at the bottom of the screen.
+          </li>
+          <img 
+            src="./assets/img/delete-account-example-screenshot.jpeg" 
+            alt="Screenshot showing the Delete account option in red at the bottom of the Settings screen" 
+            class="img-fluid mb-4" 
+            style="max-width: 300px; display: block; margin: 20px auto;"
+            />
+          <li>
+            By clicking on and confirming account deletion, your identifying information 
+            and login credentials will be immediately deleted from all of our systems 
+            and you will be logged out of the app.
+          </li>
+        </ul>
 
-      <div class="container home-container">
-        <div id="home-row" class="row">
-          <!-- <img src="./assets/img/icon.svg"> -->
-          <!-- <h1>Fathers Playbook App</h1> -->
-          <div class="col-md-8 intro-col">
-            <h1>Father's Playbook</h1>
-            <p>
-              About to be a Dad and trying to make sense of pregnancy, what to
-              do, and where to start? The Father’s Playbook app is here to help.
-              This app is developed for guys to help them understand pregnancy
-              and prepare them for after the baby comes.
-            </p>
-          </div>
-          <div class="col-md-4">
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img
-                  src="./assets/img/home-icon-1.svg"
-                  alt="Learn about what your partner is going through icon"
-                />
-              </div>
-              <span class="bullet-text"
-                >Learn about what your partner is going through</span
-              >
-            </div>
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img
-                  src="./assets/img/home-icon-2.svg"
-                  alt="Find ways to support your partner icon"
-                />
-              </div>
-              <span class="bullet-text">Find ways to support your partner</span>
-            </div>
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img
-                  src="./assets/img/home-icon-3.svg"
-                  alt="Get ready for when the baby comes icon"
-                />
-              </div>
-              <span class="bullet-text">Get ready for when the baby comes</span>
-            </div>
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img
-                  src="./assets/img/home-icon-4.svg"
-                  alt="Help with financial planning icon"
-                />
-              </div>
-              <span class="bullet-text">Help with financial planning</span>
-            </div>
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img
-                  src="./assets/img/home-icon-5.svg"
-                  alt="Understand medical terms icon"
-                />
-              </div>
-              <span class="bullet-text">Understand medical terms</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="row justify-content-center dl-row">
-          <div class="text-center">
-            <div class="row justify-content-center dl-row">
-              <p>Version 4.0 coming soon for Android and iOS</p>
-              <!-- <a
-                id="g-play-link"
-                class="download-link"
-                href="https://play.google.com/store/apps/details?id=com.sagalabs.fathersplaybook&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
-                ><img
-                  alt="Get it on Google Play"
-                  src="./assets/img/google-play-badge.svg"
-              /></a>
-
-              <a
-                target="_blank"
-                class="download-link"
-                id="app-store-link"
-                href="https://apps.apple.com/us/app/fathers-playbook/id1469334267"
-                ><img
-                  alt="Get it on App Store"
-                  src="./assets/img/app-store.svg"
-              /></a> -->
-            </div>
-          </div>
-        </div>
+        <p>Out of app account deletion:</p>
+        <ul>
+          <li>
+            If you have already uninstalled the app, you will need to email us at 
+            <a href="mailto:fathersapp@uth.tmc.edu">fathersapp@uth.tmc.edu</a> 
+            from the email address you used to create your account for Father's 
+            Playbook. This is so that we know that it is you requesting to delete 
+            your account and not anybody else.
+          </li>
+          <li>
+            Once we have received your email, we will proceed to delete your account 
+            within one week (5 business days).
+          </li>
+        </ul>
       </div>
     </div>
   </body>
@@ -230,11 +180,11 @@
       <div class="row">
         <div class="col-md-8">
           <p>
-            2019 © All rights reserved <br />The Father’s Playbook app is
+            2019 © All rights reserved <br />The Father's Playbook app is
             developed by the Texas Safe Babies team at The University of Texas
-            Health Science Center at Houston (UTHealth Houston), The Center for
-            Health Communications at University of Texas at Austin, and The SAGA
-            Lab at the University of Texas at Austin.
+            Health Science Center At Houston, The Center for Health
+            Communications at University of Texas at Austin, and The SAGA Lab at
+            the University of Texas at Austin.
             <a 
               href="https://www.uth.edu/index/policies.htm" 
               target="_blank" 
