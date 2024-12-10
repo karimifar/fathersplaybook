@@ -19,7 +19,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Father's Playbook App</title>
+    <title>About | Father's Playbook App</title>
 
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
@@ -80,8 +80,9 @@
 
     <!-- mys stylesheets -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/about-responsive.css" />
 
     <!-- social share meta tags -->
     <meta property="og:title" content="Father's Playbook App" />
@@ -107,7 +108,7 @@
         <a
           id="nav-icon"
           class="navbar-brand"
-          href="#"
+          href="/"
           aria-label="Return to Father's Playbook homepage"
         >
           <img
@@ -147,97 +148,65 @@
           </ul>
         </div>
       </nav>
-      <div id="trapezoid"></div>
 
-      <div class="container home-container">
-        <div id="home-row" class="row">
-          <!-- <img src="./assets/img/icon.svg"> -->
-          <!-- <h1>Fathers Playbook App</h1> -->
-          <div class="col-md-8 intro-col">
-            <h1>Father's Playbook</h1>
+      <div class="banner">
+        <img src="assets/img/PAP2.jpg" alt="Page Banner" />
+        <div class="overlay"></div>
+      </div>
+
+      <div class="container about-container">
+        <h1 class="page-title">About</h1>
+        <div id="about-row" class="row">
+          <div class="col-md-8 text-col">
             <p>
-              About to be a Dad and trying to make sense of pregnancy, what to
-              do, and where to start? The Father’s Playbook app is here to help.
-              This app is developed for guys to help them understand pregnancy
-              and prepare them for after the baby comes.
+              The Father’s Playbook was developed specifically for guys in
+              response to the lack of information for fathers as they navigate
+              their way to fatherhood. We are grateful to the fathers who have
+              participated in the research that continues to support and inform
+              the app and to those who have consulted with us through several
+              development cycles.
+            </p>
+
+            <p>The Father’s Playbook is a collaboration between:</p>
+            <ul>
+              <li>
+                <a href="https://www.txsafebabies.org/">The Safe Babies</a> team
+                at
+                <a href="https://sph.uth.edu/"
+                  >UTHealth Houston School of Public Health
+                </a>
+                led by Dr. Dorothy Mandell,
+              </li>
+              <li>
+                <a href="https://uthealthcomm.org/"
+                  >Center for Health Communication</a
+                >
+                at UT Austin led by Dr. Micheal Mackert,
+              </li>
+              <li>
+                and SAGA Lab at UT Austin led by
+                <a
+                  href="https://www.cs.utexas.edu/people/faculty-researchers/paul-toprac"
+                  >Dr. Paul Toprac</a
+                >
+              </li>
+            </ul>
+            <p>
+              We are also lucky to have a team of staff and students who have
+              worked to develop and bring the app to fathers.
             </p>
           </div>
-          <div class="col-md-4">
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img
-                  src="./assets/img/home-icon-1.svg"
-                  alt="Learn about what your partner is going through icon"
-                />
-              </div>
-              <span class="bullet-text"
-                >Learn about what your partner is going through</span
-              >
-            </div>
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img
-                  src="./assets/img/home-icon-2.svg"
-                  alt="Find ways to support your partner icon"
-                />
-              </div>
-              <span class="bullet-text">Find ways to support your partner</span>
-            </div>
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img
-                  src="./assets/img/home-icon-3.svg"
-                  alt="Get ready for when the baby comes icon"
-                />
-              </div>
-              <span class="bullet-text">Get ready for when the baby comes</span>
-            </div>
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img
-                  src="./assets/img/home-icon-4.svg"
-                  alt="Help with financial planning icon"
-                />
-              </div>
-              <span class="bullet-text">Help with financial planning</span>
-            </div>
-            <div class="home-bullet">
-              <div class="bullet-icon">
-                <img
-                  src="./assets/img/home-icon-5.svg"
-                  alt="Understand medical terms icon"
-                />
-              </div>
-              <span class="bullet-text">Understand medical terms</span>
-            </div>
+
+          <div class="col-md-4 team-col">
+            <h2>Report an issue</h2>
+            <p>
+              To report a bug or request account deletion please contact
+              <a href="mailto:txsafebabies@gmail.com">txsafebabies@gmail.com</a>
+            </p>
           </div>
         </div>
 
-        <div class="row justify-content-center dl-row">
-          <div class="text-center">
-            <div class="row justify-content-center dl-row">
-              <p>Version 4.0 coming soon for Android and iOS</p>
-              <!-- <a
-                id="g-play-link"
-                class="download-link"
-                href="https://play.google.com/store/apps/details?id=com.sagalabs.fathersplaybook&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
-                ><img
-                  alt="Get it on Google Play"
-                  src="./assets/img/google-play-badge.svg"
-              /></a>
-
-              <a
-                target="_blank"
-                class="download-link"
-                id="app-store-link"
-                href="https://apps.apple.com/us/app/fathers-playbook/id1469334267"
-                ><img
-                  alt="Get it on App Store"
-                  src="./assets/img/app-store.svg"
-              /></a> -->
-            </div>
-          </div>
-        </div>
+        <div class="row sponsor-row"></div>
       </div>
     </div>
   </body>
@@ -246,11 +215,15 @@
       <div class="row">
         <div class="col-md-8">
           <p>
-            2019 © All rights reserved <br />The Father’s Playbook app is
-            developed by the Texas Safe Babies team at The University of Texas
-            Health Science Center at Houston (UTHealth Houston), The Center for
-            Health Communications at University of Texas at Austin, and The SAGA
-            Lab at the University of Texas at Austin.
+            2019 -
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            © All rights reserved <br />The Father’s Playbook app is developed
+            by the Texas Safe Babies team at The University of Texas Health
+            Science Center At Houston, The Center for Health Communications at
+            University of Texas at Austin, and The SAGA Lab at the University of
+            Texas at Austin.
             <a 
               href="https://www.uth.edu/index/policies.htm" 
               target="_blank" 
@@ -286,19 +259,19 @@
         <div class="col-md-4 dl-links">
           <p>Version 4.0 coming soon for Android and iOS</p>
           <!-- <a
-              target="_blank"
-              href="https://play.google.com/store/apps/details?id=com.sagalabs.fathersplaybook&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
-              ><img src="./assets/img/google-play-badge.svg" alt=""
-            /></a>
-            <a
-              target="_blank"
-              class="download-link"
-              href="https://apps.apple.com/us/app/fathers-playbook/id1469334267"
-              ><img
-                id="f-app-store-link"
-                alt="Get it on App Store"
-                src="./assets/img/app-store.svg"
-            /></a> -->
+            target="_blank"
+            href="https://play.google.com/store/apps/details?id=com.sagalabs.fathersplaybook&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            ><img src="./assets/img/google-play-badge.svg" alt=""
+          /></a>
+          <a
+            target="_blank"
+            class="download-link"
+            href="https://apps.apple.com/us/app/fathers-playbook/id1469334267"
+            ><img
+              id="f-app-store-link"
+              alt="Get it on App Store"
+              src="./assets/img/app-store.svg"
+          /></a> -->
         </div>
       </div>
     </div>
